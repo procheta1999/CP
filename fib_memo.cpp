@@ -1,8 +1,9 @@
+// fibonacci using O(n) approach
 #include <iostream>
 #include <bits/stdc++.h>
 #include <map>
 using namespace std;
-int fib(int n,map <int,int> m)
+int fib(int n,map <int,int> m={})
 {
     if (m.find(n) != m.end())
     {
@@ -17,11 +18,11 @@ int fib(int n,map <int,int> m)
 }
 int main()
 {
-    map <int,int> nap;
+    // map <int,int> nap;
     int n;
     cout<<"enter number:";
     cin>>n;
-    int result=fib(n,nap);
+    int result=fib(n);
     cout<<result<<endl;
     return 0;
 }
