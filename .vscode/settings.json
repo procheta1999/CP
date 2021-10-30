@@ -17,6 +17,7 @@
   "C_Cpp_Runner.debuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
   "C_Cpp_Runner.makePath": "C:\\msys64\\mingw64\\bin\\make.exe",
   "files.associations": {
-    "map": "cpp"
+    "map": "cpp",
+    "iostream": "cpp"
   }
 }
